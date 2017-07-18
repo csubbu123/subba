@@ -1,0 +1,308 @@
+[root@localhost ssh]# history
+    1  ls
+    2  /
+    3  cd /home
+    4  ls
+    5  cd devops
+    6  ls
+    7  cd redbus
+    8  ls
+    9  git status
+   10  git remote -v
+   11  git push -u master master
+   12  git remote rm master
+   13  git remote -v
+   14  clear
+   15  git remote add origin https://github.com/praveenkumar0/redbus.git
+   16  git remote -v
+   17  git push -u origin master
+   18  service httpd status
+   19  service httpd start
+   20  service httpd status
+   21  git push -u origin master
+   22  service ntpd status
+   23  service ntpd start
+   24  service ntpd status
+   25  git push -u origin master
+   26  git remote rm origin
+   27  clear
+   28  git remote add origin git@github.com:praveenkumar0/redbus.git
+   29  git remote -v
+   30  git push -u origin master
+   31  ssh-keygen
+   32  cd
+   33  cd .ssh
+   34  ls
+   35  vi id_rsa.pub
+   36  cd 
+   37  cd /home/devops
+   38  cd redbus
+   39  git push -u origin master
+   40  cd ..
+   41  ls
+   42  cd ..
+   43  cd 
+   44  ls
+   45  su -i
+   46  su - i
+   47  ls
+   48  cd /home
+   49  ls
+   50  cd devops
+   51  ls
+   52  cd redbus
+   53  ls
+   54  cd ..
+   55  cd =
+   56  cd -
+   57  ls
+   58  cat second.java
+   59  cat first.java
+   60  git pull origin master
+   61  ls
+   62  cat first.java
+   63  ls
+   64  cat second.java
+   65  git fetch origin master
+   66  cat second.java
+   67  git branch
+   68  git checkout master
+   69  git status
+   70  ls
+   71  cat first.java
+   72  cat second.java
+   73  git checkout mybranch
+   74  ls
+   75  cat second.java
+   76  git checkout master
+   77  ;s
+   78  ld
+   79  ls
+   80  cat second.java
+   81  git merge mybranch
+   82  cat second.java
+   83  git fetch origin/master
+   84  git merge origin/master
+   85  cat second.java
+   86  git branch
+   87  git merge mybranch
+   88  git fetch origin master
+   89  ls
+   90  cat first.java
+   91  cd ..
+   92  mkdir gitclone
+   93  ls
+   94  cd gitclone/
+   95  git clone git@github.com:praveenkumar0/redbus.git
+   96  ls
+   97  cd ../..
+   98  cd -
+   99  cd ..
+  100  mkdir git2
+  101  ls
+  102  cd git2
+  103  ls
+  104  cat>sample1.txt
+  105  cat sample1.txt
+  106  cat>sample1.txt
+  107  cat sample1.txt
+  108  cat>sample2.txt
+  109  git status
+  110  git init .
+  111  git status
+  112  git add sample1.txt, sample2.txt
+  113  ls
+  114  git add sample1.txt , sample2.txt
+  115  git add sample1.txt sample2.txt
+  116  git status
+  117  git commit -m "first commit"
+  118  ls
+  119  git status
+  120  cat>>sample1.txt
+  121  ls
+  122  cat sample1.txt
+  123  cat>sample1.txt
+  124  git status
+  125  git add .
+  126  cat sample1.txt
+  127  cat>sample1.txt
+  128  cat sample1.txt
+  129  cat>>sample1.txt
+  130  cat sample1.txt
+  131  cat>sample1.txt
+  132  cat sample1.txt
+  133  git add .
+  134  git status
+  135  git checkout sample1.txt
+  136  git status
+  137  cat sample1.txt
+  138  vi sample1.txt
+  139  cat sample1.txt
+  140  vi sample1.txt
+  141  git checkout sample1.txt
+  142  cat sample1.txt
+  143  vi sample1.txt
+  144  git status
+  145  git add .
+  146  git status
+  147  git reset HEAD sample1.txt
+  148  git status
+  149  vi sample1.txt
+  150  git add .
+  151  git status
+  152  git commit -m "commit in git2"
+  153  git status
+  154  git log
+  155  git commit show -1
+  156  git show -1
+  157* 
+  158  git status
+  159  git push -u origin2 master
+  160  ls
+  161  git status
+  162  git add .
+  163  git commit -m "git 2 commit"
+  164  git push -u origin2 master
+  165  git push --help
+  166  git branch mybranch2
+  167  git checkout mybranch2
+  168  ls
+  169  git merge master
+  170  git add .
+  171  git status
+  172  git commit -m "git2 first commit"
+  173  git push -u origin2 master
+  174  git push origin master
+  175  git remote -v
+  176  cd .ssh
+  177  git branch
+  178  git checkout master
+  179  git commit -m "git2 first commit"
+  180  git push -u origin master
+  181  git push -u origin2 master
+  182  cd ..
+  183  ls
+  184  cd git2
+  185  ls
+  186  git push -u origin master
+  187  git push -u origin2 master
+  188  cd ..
+  189  cd redbus
+  190  git branch
+  191  vi first.java
+  192  git status
+  193  git add
+  194  git add .
+  195  git commit -m " commit recheck"
+  196  git push -u origin master
+  197  git push -u origin2 master
+  198  ssh-keygen
+  199  cd .ssh
+  200  cat root/.ssh/id_rsa.pub
+  201  cat /root/.ssh/id_rsa.pub
+  202  git -T git@github.com
+  203* git -T git@github.com
+  204  ls
+  205  cd .ssh
+  206  ls -la .ssh
+  207  cd /etc/.ssh
+  208  cd 
+  209  cd /etc/.ssh
+  210  cd /etc/ssh
+login as: ec2-user
+Authenticating with public key "imported-openssh-key"
+Last login: Wed Jul  5 05:49:55 2017 from 183.82.179.128
+
+       __|  __|_  )
+       _|  (     /   Amazon Linux AMI
+      ___|\___|___|
+
+https://aws.amazon.com/amazon-linux-ami/2017.03-release-notes/
+1 package(s) needed for security, out of 1 available
+Run "sudo yum update" to apply all updates.
+[ec2-user@ip-172-31-19-147 ~]$ sudo -i
+[root@ip-172-31-19-147 ~]# yum install git -y
+Loaded plugins: priorities, update-motd, upgrade-helper
+Resolving Dependencies
+--> Running transaction check
+---> Package git.x86_64 0:2.7.5-1.49.amzn1 will be installed
+--> Processing Dependency: perl-Git = 2.7.5-1.49.amzn1 for package: git-2.7.5-1.                                                                                        49.amzn1.x86_64
+--> Processing Dependency: perl(Term::ReadKey) for package: git-2.7.5-1.49.amzn1                                                                                        .x86_64
+--> Processing Dependency: perl(Git) for package: git-2.7.5-1.49.amzn1.x86_64
+--> Processing Dependency: perl(Error) for package: git-2.7.5-1.49.amzn1.x86_64
+--> Running transaction check
+---> Package perl-Error.noarch 1:0.17020-2.9.amzn1 will be installed
+---> Package perl-Git.noarch 0:2.7.5-1.49.amzn1 will be installed
+---> Package perl-TermReadKey.x86_64 0:2.30-20.9.amzn1 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package              Arch       Version                 Repository        Size
+================================================================================
+Installing:
+ git                  x86_64     2.7.5-1.49.amzn1        amzn-updates      11 M
+Installing for dependencies:
+ perl-Error           noarch     1:0.17020-2.9.amzn1     amzn-main         33 k
+ perl-Git             noarch     2.7.5-1.49.amzn1        amzn-updates      65 k
+ perl-TermReadKey     x86_64     2.30-20.9.amzn1         amzn-main         33 k
+
+Transaction Summary
+================================================================================
+Install  1 Package (+3 Dependent packages)
+
+Total download size: 11 M
+Installed size: 28 M
+Downloading packages:
+(1/4): perl-TermReadKey-2.30-20.9.amzn1.x86_64.rpm         |  33 kB   00:00
+(2/4): perl-Error-0.17020-2.9.amzn1.noarch.rpm             |  33 kB   00:00
+(3/4): perl-Git-2.7.5-1.49.amzn1.noarch.rpm                |  65 kB   00:00
+(4/4): git-2.7.5-1.49.amzn1.x86_64.rpm                     |  11 MB   00:00
+--------------------------------------------------------------------------------
+Total                                               18 MB/s |  11 MB  00:00
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : 1:perl-Error-0.17020-2.9.amzn1.noarch                        1/4
+  Installing : perl-TermReadKey-2.30-20.9.amzn1.x86_64                      2/4
+  Installing : perl-Git-2.7.5-1.49.amzn1.noarch                             3/4
+  Installing : git-2.7.5-1.49.amzn1.x86_64                                  4/4
+  Verifying  : 1:perl-Error-0.17020-2.9.amzn1.noarch                        1/4
+  Verifying  : perl-Git-2.7.5-1.49.amzn1.noarch                             2/4
+  Verifying  : git-2.7.5-1.49.amzn1.x86_64                                  3/4
+  Verifying  : perl-TermReadKey-2.30-20.9.amzn1.x86_64                      4/4
+
+Installed:
+  git.x86_64 0:2.7.5-1.49.amzn1
+
+Dependency Installed:
+  perl-Error.noarch 1:0.17020-2.9.amzn1      perl-Git.noarch 0:2.7.5-1.49.amzn1
+  perl-TermReadKey.x86_64 0:2.30-20.9.amzn1
+
+Complete!
+[root@ip-172-31-19-147 ~]# mkdir airforce
+[root@ip-172-31-19-147 ~]# ls
+airforce
+[root@ip-172-31-19-147 ~]# cd airforce/
+[root@ip-172-31-19-147 airforce]# ls
+[root@ip-172-31-19-147 airforce]# git init .
+Initialized empty Git repository in /root/airforce/.git/
+[root@ip-172-31-19-147 airforce]# git --version
+git version 2.7.5
+[root@ip-172-31-19-147 airforce]# cat file1
+cat: file1: No such file or directory
+[root@ip-172-31-19-147 airforce]# cat > file1
+fndanfafnmafanfa
+jbsfshafbkasfbnasf
+kgsadabdasn,
+[root@ip-172-31-19-147 airforce]# git add .
+[root@ip-172-31-19-147 airforce]# git commit -m "first commit"
+[master (root-commit) b8b8bb7] first commit
+ Committer: root <root@ip-172-31-19-147.us-east-2.compute.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
